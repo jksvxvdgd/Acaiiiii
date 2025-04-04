@@ -3,68 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Açaí do Bairro</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #D9A8D3;
-            color: #4B0082;
-        }
-        h1, h2 {
-            color: #8A2BE2;
-        }
-        .button-whatsapp {
-            background-color: #25D366;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-        .image-container {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .image-container img {
-            width: 300px;
-            height: auto;
-            border-radius: 10px;
-        }
-        .delivery-info {
-            text-align: center;
-            font-size: 18px;
-            background-color: #8A2BE2;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Açaí Delícia - Promoção Especial</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>Açaí do Bairro</h1>
-    <p>Delicie-se com nossos açaís decorados e com entrega grátis em toda a região!</p>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>Açaí Delícia</h1>
+        </div>
+    </header>
 
-    <!-- Imagem de Açaí Decorado -->
-    <div class="image-container">
-        <img src="link-da-imagem-do-acai.jpg" alt="Açaí Decorado">
-    </div>
+    <!-- Seção de Promoção -->
+    <section class="promo">
+        <h2>Promoção Especial</h2>
+        <div class="promo-details">
+            <img src="acai-promo.jpg" alt="Açaí com frutas" class="promo-img">
+            <div class="promo-info">
+                <h3>Copo de 700ml de Açaí</h3>
+                <p>Por apenas <strong>R$ 10,00</strong></p>
+                <p>Com direito a <strong>5 acompanhamentos</strong>!</p>
+                <p>Escolha entre morango, granola, banana, chocolate e muito mais!</p>
+                <button class="order-btn">Peça Agora</button>
+            </div>
+        </div>
+    </section>
 
-    <!-- Link do WhatsApp -->
-    <div class="whatsapp-link">
-        <a href="https://wa.me/5511918780059" class="button-whatsapp">Peça pelo WhatsApp</a>
-    </div>
-
-    <!-- Imagem de Motoboy -->
-    <div class="image-container">
-        <img src="link-da-imagem-do-motoboy.jpg" alt="Motoboy fazendo entrega">
-        <p class="delivery-info">Taxa de entrega grátis em toda região!</p>
-    </div>
-
-    <!-- Copão de Açaí com preço -->
-    <div class="image-container">
-        <img src="link-da-imagem-do-copao.jpg" alt="Copão de Açaí Decorado">
-        <h2>Açaí Decorado - R$10,00</h2>
-    </div>
+    <!-- Cardápio com Desenhos de Frutas -->
+    <section class="cardapio">
+        <h2>Cardápio</h2>
+        <div class="frutas">
+            <div class="fruit-card">
+                <img src="morango.png" alt="Morango" class="fruit-img">
+                <p>Morango</p>
+            </div>
+            <div class="fruit-card">
+                <img src="banana.png" alt="Banana" class="fruit-img">
+                <p>Banana</p>
+            </div>
+            <div class="fruit-card">
+                <img src="granola.png" alt="Granola" class="fruit-img">
+                <p>Granola</p>
+            </div>
+            <!-- Adicione mais frutas e desenhos conforme necessário -->
+        </div>
+    </section>
 
 </body>
 </html>
