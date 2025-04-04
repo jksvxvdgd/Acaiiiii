@@ -46,7 +46,7 @@ header .logo h1 {
 }
 
 .promo-img {
-    width: 300px;
+    width: 250px;
     height: auto;
     border-radius: 8px;
 }
@@ -68,7 +68,7 @@ header .logo h1 {
 .order-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #388e3c; /* Botão promoção verde */
+    background-color: #8e24aa; /* Botão roxo */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -77,10 +77,10 @@ header .logo h1 {
 }
 
 .order-btn:hover {
-    background-color: #2c6a28; /* Verde escuro no hover */
+    background-color: #6a1b9a; /* Cor roxa mais escura no hover */
 }
 
-/* Cardápio com Frutas */
+/* Cardápio */
 .cardapio {
     background-color: #fff;
     padding: 20px;
@@ -95,45 +95,72 @@ header .logo h1 {
     margin-bottom: 20px;
 }
 
-.frutas {
+.acompanhamentos {
     display: flex;
     justify-content: space-around;
 }
 
-.fruit-card {
+.item {
     text-align: center;
-    width: 150px;
+    width: 120px;
 }
 
-.fruit-card img {
-    width: 100px;
-    height: 100px;
+.acomp-img {
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 
-.fruit-card p {
+.item p {
     font-size: 16px;
     margin-top: 10px;
 }
 
-/* WhatsApp */
-.whatsapp {
+/* Botões de WhatsApp e Peça Já */
+.buttons {
     text-align: center;
-    margin: 40px 0;
+    margin-top: 30px;
 }
 
 .whatsapp-btn {
     padding: 15px 30px;
-    background-color: #25D366; /* Cor padrão do WhatsApp */
+    background-color: #25D366; /* Cor do WhatsApp */
     color: white;
     font-size: 18px;
     text-decoration: none;
     border-radius: 25px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
 }
 
 .whatsapp-btn:hover {
     background-color: #128C7E; /* Cor escura do WhatsApp */
+}
+
+.order-btn {
+    background-color: #8e24aa;
+}
+
+.order-btn:hover {
+    background-color: #6a1b9a;
+}
+
+/* Localização */
+.localizacao {
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Imagem de Motoboy */
+.motoboy {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.motoboy-img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
 }
 
 /* Rodapé */
