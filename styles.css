@@ -1,74 +1,93 @@
-* {
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #f4f4f4;
     color: #333;
 }
 
 header {
-    background-color: #2e8b57;
-    color: white;
+    background-color: #6a2c8a;
+    padding: 20px;
     text-align: center;
-    padding: 2rem;
-}
-
-header h1 {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-}
-
-header p {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
-}
-
-.hero {
-    text-align: center;
-    padding: 2rem;
-}
-
-.hero img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 2rem;
-}
-
-.cta h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.cta p {
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-}
-
-.whatsapp-button {
-    background-color: #25d366;
     color: white;
-    padding: 1rem 2rem;
-    border-radius: 50px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    display: inline-block;
-    transition: background-color 0.3s;
 }
 
-.whatsapp-button:hover {
-    background-color: #128c7e;
+h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
 
-footer {
-    background-color: #2e8b57;
-    color: white;
+.promo {
+    background-color: #fff;
+    padding: 40px 20px;
     text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+}
+
+.promo h2 {
+    font-size: 2em;
+    color: #6a2c8a;
+}
+
+.promo-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.promo-img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.promo-info {
+    text-align: left;
+}
+
+.order-btn {
+    background-color: #ff5722;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.order-btn:hover {
+    background-color: #e64a19;
+}
+
+.cardapio {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cardapio h2 {
+    font-size: 2em;
+    color: #6a2c8a;
+}
+
+.frutas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fruit-card {
+    text-align: center;
+    width: 120px;
+}
+
+.fruit-img {
+    width: 100px;
+    height: 100px;
+}
+
+.fruit-card p {
+    font-size: 1.2em;
+    margin-top: 10px;
 }
