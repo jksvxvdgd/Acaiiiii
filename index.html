@@ -7,18 +7,28 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #D9A8D3;
-            color: #4B0082;
+            background-color: white;
+            color: #4B0082; /* Roxo */
+            margin: 0;
+            padding: 0;
         }
         h1, h2 {
-            color: #8A2BE2;
+            color: #4B0082;
+            text-align: center;
         }
-        .button-whatsapp {
-            background-color: #25D366;
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+        .button {
+            background-color: #4B0082; /* Roxo */
             color: white;
             padding: 10px 20px;
             border-radius: 5px;
             text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            margin: 10px;
         }
         .image-container {
             text-align: center;
@@ -29,10 +39,28 @@
             height: auto;
             border-radius: 10px;
         }
+        .cardapio {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .cardapio .item {
+            text-align: center;
+            background-color: #f3f3f3;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .cardapio .item img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }
         .delivery-info {
             text-align: center;
             font-size: 18px;
-            background-color: #8A2BE2;
+            background-color: #4B0082;
             color: white;
             padding: 10px;
             border-radius: 5px;
@@ -51,7 +79,7 @@
 
     <!-- Link do WhatsApp -->
     <div class="whatsapp-link">
-        <a href="https://wa.me/5511918780059" class="button-whatsapp">Peça pelo WhatsApp</a>
+        <a href="https://wa.me/5511918780059" class="button">Peça pelo WhatsApp</a>
     </div>
 
     <!-- Imagem de Motoboy -->
@@ -64,6 +92,31 @@
     <div class="image-container">
         <img src="link-da-imagem-do-copao.jpg" alt="Copão de Açaí Decorado">
         <h2>Açaí Decorado - R$10,00</h2>
+    </div>
+
+    <!-- Cardápio -->
+    <h2>Nosso Cardápio</h2>
+    <div class="cardapio">
+        <div class="item">
+            <img src="link-da-imagem-do-morango.jpg" alt="Morango">
+            <p>Morango</p>
+        </div>
+        <div class="item">
+            <img src="link-da-imagem-da-banana.jpg" alt="Banana">
+            <p>Banana</p>
+        </div>
+        <div class="item">
+            <img src="link-da-imagem-da-granola.jpg" alt="Granola">
+            <p>Granola</p>
+        </div>
+        <div class="item">
+            <img src="link-da-imagem-do-ovomaltine.jpg" alt="Ovomaltine">
+            <p>Ovomaltine</p>
+        </div>
+        <div class="item">
+            <img src="link-da-imagem-do-coco.jpg" alt="Coco">
+            <p>Coco</p>
+        </div>
     </div>
 
 </body>
