@@ -8,13 +8,13 @@
 /* Corpo da página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #6a1b9a; /* Fundo roxo */
+    color: #fff;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #4CAF50;
+    background-color: #8e24aa; /* Cabeçalho roxo */
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -68,7 +68,7 @@ header .logo h1 {
 .order-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #388e3c; /* Botão promoção verde */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -77,7 +77,7 @@ header .logo h1 {
 }
 
 .order-btn:hover {
-    background-color: #45a049;
+    background-color: #2c6a28; /* Verde escuro no hover */
 }
 
 /* Cardápio com Frutas */
@@ -124,7 +124,7 @@ header .logo h1 {
 
 .whatsapp-btn {
     padding: 15px 30px;
-    background-color: #25D366;
+    background-color: #25D366; /* Cor padrão do WhatsApp */
     color: white;
     font-size: 18px;
     text-decoration: none;
@@ -133,14 +133,14 @@ header .logo h1 {
 }
 
 .whatsapp-btn:hover {
-    background-color: #128C7E;
+    background-color: #128C7E; /* Cor escura do WhatsApp */
 }
 
 /* Rodapé */
 .footer {
     text-align: center;
     padding: 15px;
-    background-color: #4CAF50;
+    background-color: #4a148c; /* Rodapé roxo escuro */
     color: white;
     font-size: 14px;
 }
