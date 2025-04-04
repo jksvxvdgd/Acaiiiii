@@ -1,173 +1,74 @@
-/* Reset de margens e padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Corpo da página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #6a1b9a; /* Fundo roxo */
-    color: #fff;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
-/* Cabeçalho */
 header {
-    background-color: #8e24aa; /* Cabeçalho roxo */
+    background-color: #2e8b57;
     color: white;
-    padding: 20px 0;
     text-align: center;
+    padding: 2rem;
 }
 
-header .logo h1 {
-    font-size: 36px;
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
-/* Seção de Promoção */
-.promo {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
 }
 
-.promo h2 {
-    font-size: 28px;
+.hero {
     text-align: center;
-    margin-bottom: 20px;
+    padding: 2rem;
 }
 
-.promo-details {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.promo-img {
-    width: 250px;
-    height: auto;
+.hero img {
+    max-width: 100%;
     border-radius: 8px;
+    margin-bottom: 2rem;
 }
 
-.promo-info {
-    max-width: 500px;
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
-.promo-info h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 
-.promo-info p {
-    font-size: 18px;
-    margin-bottom: 8px;
-}
-
-.order-btn {
+.whatsapp-button {
+    background-color: #25d366;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.2rem;
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #8e24aa; /* Botão roxo */
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+}
+
+footer {
+    background-color: #2e8b57;
     color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-top: 20px;
-}
-
-.order-btn:hover {
-    background-color: #6a1b9a; /* Cor roxa mais escura no hover */
-}
-
-/* Cardápio */
-.cardapio {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.cardapio h2 {
-    font-size: 28px;
     text-align: center;
-    margin-bottom: 20px;
-}
-
-.acompanhamentos {
-    display: flex;
-    justify-content: space-around;
-}
-
-.item {
-    text-align: center;
-    width: 120px;
-}
-
-.acomp-img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-.item p {
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-/* Botões de WhatsApp e Peça Já */
-.buttons {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.whatsapp-btn {
-    padding: 15px 30px;
-    background-color: #25D366; /* Cor do WhatsApp */
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 25px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-}
-
-.whatsapp-btn:hover {
-    background-color: #128C7E; /* Cor escura do WhatsApp */
-}
-
-.order-btn {
-    background-color: #8e24aa;
-}
-
-.order-btn:hover {
-    background-color: #6a1b9a;
-}
-
-/* Localização */
-.localizacao {
-    text-align: center;
-    margin: 30px 0;
-}
-
-/* Imagem de Motoboy */
-.motoboy {
-    text-align: center;
-    margin: 30px 0;
-}
-
-.motoboy-img {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
-}
-
-/* Rodapé */
-.footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #4a148c; /* Rodapé roxo escuro */
-    color: white;
-    font-size: 14px;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
